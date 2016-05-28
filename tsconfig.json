@@ -17,10 +17,13 @@
     "filesGlob": [
         "src/typings/**/*.d.ts",
         "src/**/*.ts",
-        "src/**/*.tsx",
+        "src/**/*.tsx"
     ],
     "files": [
-
+        "src/typings/marked/marked.d.ts",
+        "src/format-markdown.ts",
+        "src/highlight.ts",
+        "src/Markdown.tsx"
     ],
     "exclude": [
         "node_modules"
