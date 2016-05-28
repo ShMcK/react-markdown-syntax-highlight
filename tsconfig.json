@@ -1,0 +1,31 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "lib"
+    },
+    "filesGlob": [
+        "src/typings/**/*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+    ],
+    "files": [
+
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

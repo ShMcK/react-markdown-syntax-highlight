@@ -1,0 +1,32 @@
+{
+  "name": "react-markdown-syntax-highlight",
+  "version": "1.0.0",
+  "description": "React component for markdown with syntax highlighting",
+  "main": "lib/Markdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShMcK/react-markdown-syntax-highlight.git"
+  },
+  "keywords": [
+    "react-component",
+    "markdown",
+    "syntax-highlighting",
+    "react"
+  ],
+  "author": "Shawn McKay <shawn.j.mckay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShMcK/react-markdown-syntax-highlight/issues"
+  },
+  "homepage": "https://github.com/ShMcK/react-markdown-syntax-highlight#readme",
+  "dependencies": {
+    "highlights": "^1.3.1",
+    "marked": "^0.3.5"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  }
+}
